@@ -1,0 +1,26 @@
+.market-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.item {
+  background: rgba(255,255,255,0.1);
+  padding: 20px;
+  border-radius: 10px;
+  width: 200px;
+}
+
+.item button {
+  padding: 10px;
+  background: #00aaff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.item button:hover {
+  background: #0077aa;
+}
